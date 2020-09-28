@@ -5,19 +5,14 @@ end
 def my_hash
   { stegosaurus: "herbivore",
    velociraptor: "carnivore"
- }
+  }
 end
 
 def pioneer
-  pioneer = {
-    :name => "Grace Hopper"
-  }
+  { :name => "Grace Hopper" }
 end
 
 
 def id_hash_generator(number)
-  another_hash = {
-    :id => 3
-  }
-  another_hash[:id] = 5
+  { id: number }  
 end
