@@ -1,10 +1,9 @@
 def new_hash
-  new_hash = Hash.new 
+  Hash.new 
 end
 
 def my_hash
- my_hash = {
-   stegosaurus: "herbivore",
+  { stegosaurus: "herbivore",
    velociraptor: "carnivore"
  }
 end
